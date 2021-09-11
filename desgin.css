@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, #ebc0fd 0%, #d9ded8 100%);
+}
+#screen{
+    margin-top: 50px;
+}
+#title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Black Han Sans', sans-serif;
+    background-color: antiquewhite;
+}
+#game-UI{
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Jua', sans-serif;
+    display: flex;
+}
+#score{
+    flex:1;
+}
+#result{
+    text-align: center;
+    margin-top: 100px;
+}
+#resultLabel{
+    background-image: linear-gradient(to bottom, #a18cd1 0%, #fbc2eb 100%);
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold; 
+    font-size: 50px;
+    font-style: italic;
+}
+#buts{
+    text-align: center;
+}
+#but_Start{
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border: none;
+    border-radius: 40%;
+    cursor: pointer;
+}
+#but_Start:hover{
+    background-color:rgb(255, 0, 0);
+}
